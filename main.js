@@ -35,4 +35,4 @@ function validate (array, total, xValue) {
   }
 }
 
-moneySplitter(800.0, 3);
+moneySplitter(800.0, 6);
