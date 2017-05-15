@@ -1,7 +1,12 @@
 # Option 2: Penny Rounding
 
-After cloning repo, run `npm i`, then `gulp` and navigate to `localhost:8888` to see the live project. The key files to examine will be `./src/js/components/main/main.controller.js` and `./src/js/components/tests/main.controller.tests.js`.
-`npm test` will run the tests that I've written. 
+This app is deployed to `https://nathanejbrown.github.io/moneySplitter/#/`. The key files to examine will be
+
+- `./src/js/components/main/main.controller.js`
+
+- `./src/js/components/tests/main.controller.tests.js`.
+
+`npm test` will run the tests that I've written.
 
 ### One hour limit  - Send your Github repo link to Apto contact
 1. Create a function called “moneySplitter” that takes a decimal value called “total” as input.
