@@ -10,8 +10,16 @@
     "gulp-connect": "^4.2.0",
     "gulp-jscs": "^4.0.0",
     "gulp-jshint": "^2.0.1",
+    "jasmine-core": "^2.6.1",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
     "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start my.conf.js"
   }
 }
