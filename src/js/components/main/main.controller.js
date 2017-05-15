@@ -17,7 +17,6 @@
         var answer = $scope.validate(valuesArray, total, 0);
         $scope.alert = `The answer is: [${answer}]`;
         return answer;
-        // console.log($scope.validate(valuesArray, total, 0));
     }
 
     $scope.divide = function(initialValue, count) {
